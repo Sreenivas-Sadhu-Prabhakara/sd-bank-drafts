@@ -1,0 +1,14 @@
+apiVersion: v2
+name: sd-bank-drafts
+description: "BIAN Service Domain: Bank Drafts (Fulfill pattern, Operations and Execution)"
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+keywords:
+  - bian
+  - fulfill
+annotations:
+  bian/business-area: "Operations and Execution"
+  bian/business-domain: "Trade Banking"
+  bian/asset-type: "Bank Draft"
+  bian/control-record: "Bank Draft Fulfillment Arrangement"
